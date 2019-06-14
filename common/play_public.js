@@ -29,6 +29,7 @@ function fullPlay(fcode, conid, type) {
         fullVideoUrl = data.authUrl;
         hs.go(fullVideoUrl);
     }, 0, function (msg) {
-        console.log(msg)
-    }, 3000)
+        console.log(msg);
+		console.log("1");
+   }, 3000)
 }
